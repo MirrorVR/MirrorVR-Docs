@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Docs](README.md)
+* [MirrorVR Documentation](README.md)
 
 ## Manual
 
@@ -11,13 +11,13 @@
   * [PhotonVR to MirrorVR](manual/guides/photonvr-to-mirrorvr.md)
   * [FlowVR to MirrorVR](manual/guides/flowvr-to-mirrorvr.md)
   * [Using Dissonance](manual/guides/using-dissonance.md)
-  * [Using Steam with MirrorVR](manual/guides/using-steam-with-mirrorvr.md)
+  * [Multi-Scene Support](manual/guides/multi-scene-support.md)
 * [Components](manual/components/README.md)
   * [EOSSDKComponent](manual/components/eossdkcomponent.md)
+  * [Host Migration Controller](manual/components/host-migration-controller.md)
   * [Host Migration Skip](manual/components/host-migration-skip.md)
   * [Mirror VR Manager](manual/components/mirror-vr-manager.md)
   * [Mirror VR Player](manual/components/mirror-vr-player.md)
-  * [Network Manager](https://mirror-networking.gitbook.io/docs/manual/components/network-manager)
 
 ## Learning about EOS
 
