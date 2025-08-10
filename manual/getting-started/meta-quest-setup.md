@@ -16,7 +16,7 @@ If you didn't have an organization before, you will need to verify your identity
 Your legal name in the [Meta Accounts Center](https://accountscenter.meta.com/accounts) MUST match the name on the ID if doing admin verification.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
 {% endstep %}
@@ -28,7 +28,7 @@ Install the [Meta XR Core SDK](https://assetstore.unity.com/packages/tools/integ
 Once done, go to your project again and at the top, click on `Meta > Platform >` \
 `Edit Settings`.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 {% endstep %}

@@ -78,7 +78,7 @@ Name your product. It should be your game name. Once done, hit the create button
 {% step %}
 Once your product has been created and it's done loading, click on it. On the left-hand side of your screen, click on the `Product Settings` tab.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now click on the `Clients` tab.
 
@@ -182,7 +182,10 @@ While we are here, let's set the Encryption Key.
 The Encryption Key will be used to read and write to Title Storage (10 free GB per app) and Player Data Storage (400 MB or 1000 files per player). Make sure you store it somewhere safe so you can use it later.
 {% endhint %}
 
-&#x20;Go to [this website](https://generate.plus/en/hex/secret-key) to generate a 64 byte hexadecimal string we can use as the encryption key. Copy it, put it into the Encryption Key field in MirrorVRManager, and you're all set!
+&#x20;Go to [this website](https://generate.plus/en/hex) to generate a 32-byte hexadecimal string we can use as the encryption key.\
+Set the number in the lower left to 32, copy it, put it into the Encryption Key field in MirrorVRManager, and you're all set!
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
