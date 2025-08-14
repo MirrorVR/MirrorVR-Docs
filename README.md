@@ -1,5 +1,5 @@
 ---
-description: MirrorVR Documentation
+description: MirrorVR Docs Intro
 ---
 
 # MirrorVR Documentation

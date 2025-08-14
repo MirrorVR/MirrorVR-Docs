@@ -6,7 +6,7 @@ description: >-
 
 # Getting Started
 
-Welcome to the MirrorVR Setup! It is a long process, but it's easy if you follow along!
+Welcome to the MirrorVR Setup! It's a long process, but it's easy if you follow along!
 
 {% hint style="warning" %}
 Make sure you have removed your old networking system from the scene before you continue.\
@@ -34,7 +34,7 @@ If you have any obfuscators, make sure the following namespaces are added to the
 {% stepper %}
 {% step %}
 First, download the latest version of [Mirror](https://github.com/MirrorNetworking/Mirror) and put it into your game.\
-Then after Mirror is installed in your project, get the [latest MirrorVR package](https://github.com/MirrorVR/MirrorVR/releases/latest) and put it in your game.
+Then, after Mirror is installed in your project, get the [latest MirrorVR package](https://github.com/MirrorVR/MirrorVR/releases/latest) and put it in your game.
 
 
 {% endstep %}
@@ -78,11 +78,11 @@ Name your product. It should be your game name. Once done, hit the create button
 {% step %}
 Once your product has been created and it's done loading, click on it. On the left-hand side of your screen, click on the `Product Settings` tab.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now click on the `Clients` tab.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 {% endstep %}
@@ -90,11 +90,11 @@ Now click on the `Clients` tab.
 {% step %}
 Scroll towards the bottom, where it says `Client policies`. Click the blue `Add new client policy` button.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Name your policy whatever you want, and set `Policy Type` to be `Peer2Peer`.
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 At the bottom right of your screen, press the blue `Add new client policy` button.
 
@@ -104,11 +104,11 @@ At the bottom right of your screen, press the blue `Add new client policy` butto
 {% step %}
 Now scroll up a little to the `Clients` section. Click the `Add new client` button.
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Client Name can be anything. On client policy, select the one we just created. We can skip IP allow list and Redirect URL, as they aren't needed for our case.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 On the bottom right of your screen, click the `Add new client` button.
 
@@ -172,6 +172,26 @@ Under `SDK Download & Credentials`, scroll to the bottom to get your API Keys.
 {% endstep %}
 
 {% step %}
+Now scroll up, and on the right side of your screen, click the `Downloads & Release notes` button.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+Go back to your project, and go to `Assets/MirrorVR/Transports/EOSTransport/EOSSDK/version.txt`. That's the version of the SDK you need to download, so keep that version in mind. Now select the SDK Type dropdown, and choose the C# SDK. Now, on the version dropdown, select the correct version you have that is in that file. Like if the file said `1.17.1.3-CL44532354`, choose that in the dropdown.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+Now hit the `Download EOS SDK` button. This file will be big because it contains all of the EOSSDK assemblies that aren't included in the MirrorVR package to make the package size smaller.
+{% endstep %}
+
+{% step %}
+Once it's done downloading, go to `Window > MirrorVR > Assembly Loader`. Hit the Select Zip button, and select the EOS SDK zip file. Now hit Load Assemblies, and wait a few seconds. This will load all of the needed EOSSDK assemblies into your project.
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+After it's done, you may delete the zip.
+{% endstep %}
+
+{% step %}
 Now go back to MirrorVRManager and put these credentials in their fields.
 
 <figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
@@ -185,14 +205,14 @@ The Encryption Key will be used to read and write to Title Storage (10 free GB p
 &#x20;Go to [this website](https://generate.plus/en/hex) to generate a 32-byte hexadecimal string we can use as the encryption key.\
 Set the number in the lower left to 32, copy it, put it into the Encryption Key field in MirrorVRManager, and you're all set!
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-And basic setup is done! See below for next steps.
+And the basic setup is done! See below for next steps.
 
 {% hint style="warning" %}
-If you are using Oculus or Steam, there's setup for those too.\
+If you are using Oculus or Steam, there's setup for those, too.\
 See [meta-quest-setup.md](meta-quest-setup.md "mention") or [steam-setup.md](steam-setup.md "mention") to do those.
 {% endhint %}
 {% endstep %}
